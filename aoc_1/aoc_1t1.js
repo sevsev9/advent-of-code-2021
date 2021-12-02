@@ -1,0 +1,1 @@
+require('fs/promises').readFile('./input.txt').then(data => data.toString()).then(str => str.split('\n')).then(input => input.map(e => e-0).reduce( (acc, curr, idx, arr) => (curr > arr[idx-1]) ? ++acc : acc, 0)).then(console.log)
