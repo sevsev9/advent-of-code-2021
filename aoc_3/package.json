@@ -1,0 +1,13 @@
+{
+  "name": "aoc_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aoc_3t1.js",
+  "scripts": {
+    "t1": "node aoc_3t1.js",
+    "t2": "node aoc_3t2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
